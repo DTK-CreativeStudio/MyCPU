@@ -1046,23 +1046,27 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
     <wire from="(170,590)" to="(170,660)"/>
+    <wire from="(170,660)" to="(170,730)"/>
     <wire from="(210,540)" to="(210,550)"/>
-    <wire from="(240,730)" to="(240,740)"/>
     <wire from="(240,590)" to="(240,630)"/>
+    <wire from="(260,630)" to="(260,670)"/>
     <wire from="(210,550)" to="(260,550)"/>
     <wire from="(210,610)" to="(260,610)"/>
     <wire from="(170,590)" to="(190,590)"/>
     <wire from="(260,550)" to="(260,570)"/>
-    <wire from="(170,660)" to="(170,740)"/>
+    <wire from="(260,610)" to="(260,630)"/>
     <wire from="(100,630)" to="(240,630)"/>
     <wire from="(210,550)" to="(210,570)"/>
-    <wire from="(260,610)" to="(260,670)"/>
+    <wire from="(170,730)" to="(240,730)"/>
     <wire from="(100,660)" to="(170,660)"/>
+    <wire from="(260,630)" to="(300,630)"/>
     <wire from="(240,630)" to="(240,690)"/>
     <comp lib="0" loc="(260,710)" name="Transistor">
+      <a name="type" val="n"/>
       <a name="facing" val="north"/>
     </comp>
     <comp lib="0" loc="(260,670)" name="Transistor">
+      <a name="type" val="n"/>
       <a name="facing" val="north"/>
     </comp>
     <comp lib="0" loc="(210,540)" name="Power"/>
@@ -1145,6 +1149,11 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="0" loc="(210,570)" name="Transistor">
       <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(300,630)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
     </comp>
     <comp lib="0" loc="(80,120)" name="Pin">
       <a name="tristate" val="false"/>
